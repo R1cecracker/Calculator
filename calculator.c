@@ -2,7 +2,16 @@
 #include <cs50.h>
 
 int main() {
-    int mark = 50;
+
+    // Create an integer variable that will store the number we get from the user
+    int mark;
+    int myNum;
+    // Ask the user to type a number
+    printf("Type a mark: \n");
+
+    // Get and save the number the user types
+    scanf("%d", &mark);
+
     switch (mark) {
         case 85 ... 100:
             printf("High Distinction\n");
